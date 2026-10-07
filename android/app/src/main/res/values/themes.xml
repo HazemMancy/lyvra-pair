@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lyvra_bg">#0B0D17</color>
+    <color name="lyvra_deck">#161A2B</color>
+
+    <style name="Theme.Lyvra" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/lyvra_bg</item>
+        <item name="android:statusBarColor">@color/lyvra_bg</item>
+        <item name="android:navigationBarColor">@color/lyvra_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="31" xmlns:tools="http://schemas.android.com/tools">@color/lyvra_bg</item>
+    </style>
+</resources>
