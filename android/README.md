@@ -48,3 +48,10 @@ GitHub Actions (`.github/workflows/android.yml`) builds on every push that touch
 `versionCode` is the workflow run number, so every CI build can be uploaded to Play.
 
 Locally: open `android/` in Android Studio, or run `./gradlew assembleDebug`.
+
+## Play Store listing
+
+`store/` has the listing graphics: `icon-512.png` (app icon), `feature-1024x500.png` (feature
+graphic) and 1920x1080 phone screenshots. The screenshots use a sample playlist; replace them
+with shots from your own playlist before publishing if you prefer. Privacy policy URL:
+https://hazemmancy.github.io/lyvra-pair/privacy.html
